@@ -52,7 +52,7 @@ plt.xlabel('Position')
 plt.ylabel('Salary')
 
 # Predicting the salary
-lin_reg2.predict(poly_reg.fit_transform(6.5))
+lin_reg2.predict(poly_reg.fit_transform([[6.5]]))
 
 
 
